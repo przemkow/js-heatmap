@@ -1,6 +1,16 @@
 import { renderHeatMap } from "./heatmap";
 
 
+renderHeatMap({
+  x: 50,
+  y: 30,
+  hoverIncrease: 3,
+  hoverRadius: 3,
+  clickIncrease: 10,
+  clickRadius: 10,
+  showValues: false,
+})
+
 
 document.getElementById('updateConfig').addEventListener("submit", (e) => {
   e.preventDefault();
